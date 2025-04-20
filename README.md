@@ -18,6 +18,7 @@ EmoLingo is an NLP-based chatbot that predicts user emotion, tone, and English p
     ├── Writing_proficiency.py       # Module for assessing English proficiency
     ├── pipeline.py                  # Integrates all models into a unified pipeline
     ├── writing_tone_dataset.csv     # Dataset for training tone classification model
+    ├── requirements.txt             # Necessary Packages
     └── README.md
 
 https://github.com/user-attachments/assets/ab90e120-3d03-4862-ae7d-fcd1560f3161
