@@ -21,6 +21,22 @@ EmoLingo is an NLP-based chatbot that predicts user emotion, tone, and English p
     ├── requirements.txt             # Necessary Packages
     └── README.md
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.7 or higher
+- pip package manager
+
+### Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/akshay-menta/EmoLingo-ChatBot.git
+cd EmoLingo-ChatBot
+```
+
 ## Demo
 
 https://github.com/user-attachments/assets/ab90e120-3d03-4862-ae7d-fcd1560f3161
