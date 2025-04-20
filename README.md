@@ -37,6 +37,51 @@ git clone https://github.com/akshay-menta/EmoLingo-ChatBot.git
 cd EmoLingo-ChatBot
 ```
 
+2. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Set up the English Proficiency Model**
+
+⚠️ Important: The English proficiency model is not stored in the repository due to size limitations. You must generate it before running the app.
+
+Run the following command to create and save the model locally:
+
+```bash
+python Writing_proficiency.py
+```
+This step will save the model artifacts required by the ```app.py```.
+
+4. **Run the Streamlit Application**
+
+```bash
+streamlit run app.py
+```
+
+## 📊 Model Architecture
+```
+| Component              | Method                                 | Framework      |
+|------------------------|----------------------------------------|----------------|
+| Emotion Detection      | Ensemble method (T5,ROBERTA,ELECTRA)   | Hugging Face   |
+| Writing Tone Classifier| RoBERTa-based model + custom data      | Hugging Face   |
+| Proficiency Estimator  | DistilBERTa-based model                | Hugging Face   |
+| Response Generator     | Dynamic prompt logic with UI           | Streamlit      |
+```
+
+## 🧪 Usage
+
+1. Type your message in the chatbot UI.
+
+2. EmoLingo will:
+   - 🎭 Detect the emotional state of the user
+   - ✍️ Assess the tone and English proficiency
+   - 💬 Generate a thoughtful, style-matching reply
+
+3. Watch how the chatbot dynamically adapts responses based on emotional and stylistic cues.
+
+
 ## Demo
 
 https://github.com/user-attachments/assets/ab90e120-3d03-4862-ae7d-fcd1560f3161
