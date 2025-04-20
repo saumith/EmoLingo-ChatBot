@@ -82,7 +82,9 @@ streamlit run app.py
 3. Watch how the chatbot dynamically adapts responses based on emotional and stylistic cues.
 
 
-## Demo
+## 🎥 Demo
+
+Check out the EmoLingo ChatBot in action:
 
 https://github.com/user-attachments/assets/ab90e120-3d03-4862-ae7d-fcd1560f3161
 
