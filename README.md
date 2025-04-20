@@ -21,5 +21,7 @@ EmoLingo is an NLP-based chatbot that predicts user emotion, tone, and English p
     ├── requirements.txt             # Necessary Packages
     └── README.md
 
+## Demo
+
 https://github.com/user-attachments/assets/ab90e120-3d03-4862-ae7d-fcd1560f3161
 
