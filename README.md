@@ -11,7 +11,7 @@ EmoLingo is an NLP-based chatbot that predicts user emotion, tone, and English p
 
 ## 📁 Project Structure
 
-.
+
     ├── app.py                       # Main application script for Streamlit UI
     ├── emotion_classification.py    # Module for emotion detection
     ├── writing_tone.py              # Module for tone classification
