@@ -43,7 +43,7 @@ cd EmoLingo-ChatBot
 pip install -r requirements.txt
 ```
 
-### 🔐 Hugging Face Token Required
+#### 🔐 Hugging Face Token Required
 
 Hugging Face API tokens have been removed from the code for security purposes.
 
