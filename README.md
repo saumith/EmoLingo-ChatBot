@@ -43,6 +43,20 @@ cd EmoLingo-ChatBot
 pip install -r requirements.txt
 ```
 
+### 🔐 Hugging Face Token Required
+
+Hugging Face API tokens have been removed from the code for security purposes.
+
+To use the application, you must insert **your own Hugging Face API token** manually in the code.
+
+1. Go to [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) to generate a new token.
+2. Open the relevant file (e.g., `emotion_classification.py` or `pipeline.py`) and locate the line where the token is used.
+3. Replace the placeholder or comment with your actual token, like this:
+
+```python
+HUGGINGFACEHUB_API_TOKEN = "your_token_here"
+```
+
 3. **Set up the English Proficiency Model**
 
 ⚠️ Important: The English proficiency model is not stored in the repository due to size limitations. You must generate it before running the app.
