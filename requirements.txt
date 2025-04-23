@@ -1,0 +1,10 @@
+tensorflow
+transformers
+openai
+peft
+sentencepiece
+streamlit
+torch
+datasets
+tqdm
+
